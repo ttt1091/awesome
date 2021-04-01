@@ -1,0 +1,17 @@
+@import "scss/reset";
+
+
+.hero{
+  background-image: url("http://localhost:8888/wp-content/themes/awesome/assets/images/heroback.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  .dust{
+    background-image: url("http://localhost:8888/wp-content/themes/awesome/assets/images/crt-screen.png");
+    background-size: 2px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+}
