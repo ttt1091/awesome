@@ -39,7 +39,7 @@
 
 <section class="section">
   <div class="container">
-    コンテンツ
+    content
   <div>
 </section>
 
