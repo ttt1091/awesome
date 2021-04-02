@@ -16,12 +16,12 @@
         <?php bloginfo( 'name' ); ?>
       </h1>
       <h2 class="subtitle is-6 has-text-light">
-        subtitle
+        星を詠む力
       </h2>
     </div>
   </div>
   <div class="dust"></div>
-  <div class="downIcons is-flex is-flex-direction-column is-justify-content-center">
+  <a href="#content" class="downIcons is-flex is-flex-direction-column is-justify-content-center">
     <svg class="triple-flash-one" style="max-width: 100%;" width="10" height="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <circle cx="5" cy="5" r="5" fill="#FFF"/>
     </svg>
@@ -33,12 +33,13 @@
       <circle cx="5" cy="5" r="5" fill="#FFF"/>
       <feGaussianBlur stdDeviation="10"/>
     </svg>
-  </div>
+</a>
 </section>
 
-<section class="section">
+<section class="section main-container">
   <div class="container">
     content
+    <div id="content"></div>
   <div>
 </section>
 

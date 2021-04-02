@@ -294,6 +294,10 @@ template {
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .hero {
   background-image: url("http://localhost:8888/wp-content/themes/awesome/assets/images/heroback-03.jpg");
   background-position: center;
@@ -320,6 +324,10 @@ template {
 
 .downIcons svg:last-child {
   margin-bottom: 8px;
+}
+
+.main-container {
+  min-height: 100vh;
 }
 
 .triple-flash-one {
