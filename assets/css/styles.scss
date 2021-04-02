@@ -17,5 +17,6 @@
     position: absolute;
   }
 }
-
+.downIcons{ z-index: 10; }
 .downIcons svg{ margin: 1px auto; }
+.downIcons svg:last-child{ margin-bottom: 8px; }
