@@ -1,8 +1,10 @@
 @import "scss/reset";
 
 
+*{ box-sizing: border-box; }
+
 .hero{
-  background-image: url("http://localhost:8888/wp-content/themes/awesome/assets/images/heroback.jpg");
+  background-image: url("http://localhost:8888/wp-content/themes/awesome/assets/images/heroback-03.jpg");
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -15,3 +17,5 @@
     position: absolute;
   }
 }
+
+.downIcons svg{ margin: 1px auto; }

@@ -21,11 +21,25 @@
     </div>
   </div>
   <div class="dust"></div>
+  <div class="downIcons is-flex is-flex-direction-column is-justify-content-center">
+    <svg style="max-width: 100%;" width="10" height="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <circle cx="5" cy="5" r="5" fill="#FFF"/>
+      <feGaussianBlur stdDeviation="8"/>
+    </svg>
+    <svg style="max-width: 100%;" width="10" height="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <circle cx="5" cy="5" r="5" fill="#FFF"/>
+      <feGaussianBlur stdDeviation="8"/>
+    </svg>
+    <svg style="max-width: 100%;" width="10" height="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <circle cx="5" cy="5" r="5" fill="#FFF"/>
+      <feGaussianBlur stdDeviation="8"/>
+    </svg>
+  </div>
 </section>
 
 <section class="section">
   <div class="container">
-    コンテンツa
+    コンテンツ
   <div>
 </section>
 
