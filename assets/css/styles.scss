@@ -20,3 +20,25 @@
 .downIcons{ z-index: 10; }
 .downIcons svg{ margin: 1px auto; }
 .downIcons svg:last-child{ margin-bottom: 8px; }
+
+.triple-flash-one{ animation: triple-flash-one 3s linear infinite; }
+.triple-flash-two{ animation: triple-flash-two 3s linear infinite; }
+.triple-flash-three{ animation: triple-flash-three 3s linear infinite; }
+
+@keyframes triple-flash-one {
+  0%,100% { opacity: 1; }
+  33% { opacity: 0.5; }
+  66% { opacity: 0; }
+}
+
+@keyframes triple-flash-two {
+  0%,100% { opacity: 0.5; }
+  33% { opacity: 0; }
+  66% { opacity: 1; }
+}
+
+@keyframes triple-flash-three {
+  0%,100% { opacity: 0; }
+  33% { opacity: 1; }
+  66% { opacity: 0.5; }
+}
