@@ -21,7 +21,7 @@
     </div>
   </div>
   <div class="dust"></div>
-  <a href="#content" class="downIcons is-flex is-flex-direction-column is-justify-content-center">
+  <a href="#content01" class="downIcons is-flex is-flex-direction-column is-justify-content-center">
     <svg class="triple-flash-one" style="max-width: 100%;" width="10" height="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <circle cx="5" cy="5" r="5" fill="#FFF"/>
     </svg>
@@ -37,11 +37,39 @@
 </section>
 
 <section class="section main-container">
-  <div class="container">
-    content
-    <div id="content"></div>
+  <div id="content01" class="container" tabindex="-1">
+    <a href="#content02">content01</a>
+    <div>https://www.willstyle.co.jp/blog/1449/</div>
   <div>
 </section>
+
+<section class="section main-container">
+  <div id="content02" class="container" tabindex="-1">
+    <a href="#content01">content2</a>
+  <div>
+</section>
+
+
+<script>
+      var scroll = new SmoothScroll();
+      var options = {
+        speed: 50,
+        offset: 0,
+				easing: 'easeOutQuad'
+			};
+			var smoothScrollWithoutHash = function (selector, settings) {
+				var clickHandler = function (event) {
+					var toggle = event.target.closest( selector );
+					if ( !toggle || toggle.tagName.toLowerCase() !== 'a' ) return;
+					var anchor = document.querySelector( toggle.hash );
+					if ( !anchor ) return;
+					event.preventDefault();
+					scroll.animateScroll( anchor, toggle, options || {} );
+				};
+				window.addEventListener('click', clickHandler, false );
+			};
+			smoothScrollWithoutHash( 'a[href*="#"]' );
+</script>
 
 </body>
 </html>
