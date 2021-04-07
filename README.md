@@ -1,6 +1,5 @@
 # Hello Everyone!!
-Making a wordpress theme here.
-I'm a beginner so I can't write well.
-I'll do my best to make it, so I'd be happy if you could give me some advice.
-
-I'm not good at English ;(
+I'm making a theme for wordpress here.
+But I'm a beginner, so I can't make it well.
+I'd be happy if someone could give me some advice :)
+By the way, I'm not good at English either ;(
