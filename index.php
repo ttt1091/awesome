@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +16,7 @@
         <?php bloginfo( 'name' ); ?>
       </h1>
       <h2 class="subtitle is-6 has-text-light">
-        星を詠む力
+        fortune
       </h2>
     </div>
   </div>
@@ -39,7 +39,6 @@
 <section class="section main-container">
   <div id="content01" class="container" tabindex="-1">
     <a href="#content02">content01</a>
-    <div>https://www.willstyle.co.jp/blog/1449/</div>
   <div>
 </section>
 
